@@ -49,7 +49,7 @@ export default class MovieInfo extends Component {
 							<h1>{info.title}</h1>
 						</div>
 						<div className='info-data'>
-							<p>{info.date} * {info.vote} User Score</p>
+							<p>{info.date} &#xb7; {info.vote}&#37; User Score</p>
 							<p>{info.length}</p>
 						</div>
 					</div>
